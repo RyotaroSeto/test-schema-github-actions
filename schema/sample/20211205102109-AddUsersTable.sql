@@ -13,8 +13,6 @@
 -- -- +migrate Down
 -- DROP TABLE IF EXISTS `users`;
 
-
-
 -- +migrate Up
 CREATE TABLE IF NOT EXISTS "users" (
     "id" SERIAL PRIMARY KEY,
