@@ -1,11 +1,17 @@
 local:
-  dialect: mysql
-  datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
+  dialect: postgres
+  datasource: host=127.0.0.1 port=5432 dbname=sample user=sample password=sample sslmode=disable
   dir: sample
+  # dialect: mysql
+  # datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
+  # dir: sample
 # development:
 # staging:
 # production:
 ci:
-  dialect: mysql
-  datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
+  dialect: postgres
+  datasource: host=127.0.0.1 port=5432 dbname=sample user=sample password=sample sslmode=disable
   dir: sample
+  # dialect: mysql
+  # datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
+  # dir: sample

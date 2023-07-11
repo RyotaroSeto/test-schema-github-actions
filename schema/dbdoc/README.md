@@ -4,8 +4,7 @@
 
 | Name | Columns | Comment | Type |
 | ---- | ------- | ------- | ---- |
-| [cards](cards.md) | 4 | デモ用のサンプル | BASE TABLE |
-| [users](users.md) | 4 | デモ用のサンプルテーブル | BASE TABLE |
+| [public.users](public.users.md) | 7 |  | BASE TABLE |
 
 ## Relations
 
