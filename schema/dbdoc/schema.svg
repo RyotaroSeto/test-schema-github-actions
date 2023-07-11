@@ -55,7 +55,7 @@
 <polygon fill="none" stroke="#000000" points="76,-73 76,-103 408,-103 408,-73 76,-73"/>
 <text text-anchor="start" x="83" y="-84.4" font-family="Arial" font-size="14.00" fill="#000000">created_at    </text>
 <text text-anchor="start" x="183.3422" y="-84.4" font-family="Arial" font-size="14.00" fill="#666666">[datetime(6)]</text>
-<text text-anchor="start" x="261.906" y="-84.4" font-family="Arial" font-size="14.00" fill="#000000"> レコード作成日時3</text>
+<text text-anchor="start" x="261.906" y="-84.4" font-family="Arial" font-size="14.00" fill="#000000"> レコード作成日時</text>
 <polygon fill="none" stroke="#000000" points="76,-43 76,-73 408,-73 408,-43 76,-43"/>
 <text text-anchor="start" x="82.6835" y="-54.4" font-family="Arial" font-size="14.00" fill="#000000">modified_at    </text>
 <text text-anchor="start" x="189.2389" y="-54.4" font-family="Arial" font-size="14.00" fill="#666666">[datetime(6)]</text>
