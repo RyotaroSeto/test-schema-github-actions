@@ -6,6 +6,10 @@ on:
       - schema/tbls.yml
 jobs:
   tbls:
+    permissions:
+      actions: write
+      checks: write
+      contents: write
     name: generate-and-push
     runs-on: ubuntu-latest
     services:
