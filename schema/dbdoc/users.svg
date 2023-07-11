@@ -29,7 +29,7 @@
 <polygon fill="none" stroke="#000000" points="91,-76 91,-106 393,-106 393,-76 91,-76"/>
 <text text-anchor="start" x="98" y="-87.4" font-family="Arial" font-size="14.00" fill="#000000">created_at </text>
 <text text-anchor="start" x="168.028" y="-87.4" font-family="Arial" font-size="14.00" fill="#666666">[datetime(6)]</text>
-<text text-anchor="start" x="246.5918" y="-87.4" font-family="Arial" font-size="14.00" fill="#000000"> レコード作成日時2</text>
+<text text-anchor="start" x="246.5918" y="-87.4" font-family="Arial" font-size="14.00" fill="#000000"> レコード作成日時3</text>
 <polygon fill="none" stroke="#000000" points="91,-46 91,-76 393,-76 393,-46 91,-46"/>
 <text text-anchor="start" x="97.8406" y="-57.4" font-family="Arial" font-size="14.00" fill="#000000">modified_at </text>
 <text text-anchor="start" x="174.0818" y="-57.4" font-family="Arial" font-size="14.00" fill="#666666">[datetime(6)]</text>
