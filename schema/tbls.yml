@@ -1,5 +1,6 @@
 # DSN (Database Source Name) to connect database
 dsn: mysql://root@127.0.0.1:3306/sample?parseTime=true
+# dsn: postgres://sample:sample@127.0.0.1:5432/sample
 
 er:
   # Add table/column comment to ER diagram
