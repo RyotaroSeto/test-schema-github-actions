@@ -1,6 +1,6 @@
 local:
   dialect: postgres
-  datasource: sample@tcp(127.0.0.1:5432)/sample?parseTime=true
+  datasource: host=127.0.0.1 port=5432 dbname=sample user=sample password=sample sslmode=disable
   dir: sample
   # dialect: mysql
   # datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
@@ -10,7 +10,7 @@ local:
 # production:
 ci:
   dialect: postgres
-  datasource: sample@tcp(127.0.0.1:5432)/sample?parseTime=true
+  datasource: host=127.0.0.1 port=5432 dbname=sample user=sample password=sample sslmode=disable
   dir: sample
   # dialect: mysql
   # datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
