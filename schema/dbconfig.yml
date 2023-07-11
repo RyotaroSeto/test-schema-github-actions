@@ -1,11 +1,17 @@
 local:
-  dialect: mysql
-  datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
+  dialect: postgres
+  datasource: sample@tcp(127.0.0.1:5432)/sample?parseTime=true
   dir: sample
+  # dialect: mysql
+  # datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
+  # dir: sample
 # development:
 # staging:
 # production:
 ci:
-  dialect: mysql
-  datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
+  dialect: postgres
+  datasource: sample@tcp(127.0.0.1:5432)/sample?parseTime=true
   dir: sample
+  # dialect: mysql
+  # datasource: root@tcp(127.0.0.1:3306)/sample?parseTime=true
+  # dir: sample

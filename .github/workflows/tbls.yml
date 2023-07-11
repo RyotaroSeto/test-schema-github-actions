@@ -14,16 +14,26 @@ jobs:
     name: generate-and-push
     runs-on: ubuntu-latest
     # services:
-    #   mysql:
-    #     image: mysql:5.7
-    #     options: --health-cmd "mysqladmin ping -h localhost" --health-interval 20s --health-timeout 10s --health-retries 10
-    #     ports:
-    #       - 3306:3306
-    #     env:
-    #       MYSQL_ALLOW_EMPTY_PASSWORD: yes
-    #       MYSQL_DATABASE: sample
-    #       MYSQL_USER: sample
-    #       MYSQL_PASSWORD: sample
+      # postgres:
+      #   image: mysql:5.7
+      #   options: --health-cmd "mysqladmin ping -h localhost" --health-interval 20s --health-timeout 10s --health-retries 10
+      #   ports:
+      #     - 3306:3306
+      #   env:
+      #     MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      #     MYSQL_DATABASE: sample
+      #     MYSQL_USER: sample
+      #     MYSQL_PASSWORD: sample
+      # mysql:
+      #   image: mysql:5.7
+      #   options: --health-cmd "mysqladmin ping -h localhost" --health-interval 20s --health-timeout 10s --health-retries 10
+      #   ports:
+      #     - 3306:3306
+      #   env:
+      #     MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      #     MYSQL_DATABASE: sample
+      #     MYSQL_USER: sample
+      #     MYSQL_PASSWORD: sample
     steps:
       - name: Checkout
         uses: actions/checkout@v3
