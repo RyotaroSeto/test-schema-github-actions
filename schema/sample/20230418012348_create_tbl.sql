@@ -1,7 +1,7 @@
 -- +goose NO TRANSACTION
 
 -- +goose Up
-
+-- +migrate Up
 CREATE TABLE IF NOT EXISTS "users" (
     "id" SERIAL PRIMARY KEY,
     "user_name" VARCHAR(255) UNIQUE NOT NULL,
@@ -87,7 +87,7 @@ CREATE INDEX ON "boards" ("user_id");
 
 
 -- +goose Down
-
+-- +migrate Down
 DROP TABLE "users";
 
 DROP TABLE "users_details";
