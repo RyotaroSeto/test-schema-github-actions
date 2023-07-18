@@ -6,8 +6,8 @@
 
 | Name | Type | Default | Nullable | Children | Parents | Comment |
 | ---- | ---- | ------- | -------- | -------- | ------- | ------- |
-| id | integer | nextval('users_id_seq'::regclass) | false |  |  |  |
-| user_name | varchar(255) |  | false |  |  |  |
+| id | integer | nextval('users_id_seq'::regclass) | false | [public.users_details](public.users_details.md) [public.likes](public.likes.md) [public.messages](public.messages.md) [public.boards](public.boards.md) |  |  |
+| user_name | varchar(255) |  | false | [public.sessions](public.sessions.md) |  |  |
 | hashed_password | varchar(255) |  | false |  |  |  |
 | status | integer | 1 | false |  |  |  |
 | email | varchar(255) |  | false |  |  |  |
